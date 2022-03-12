@@ -1,0 +1,3 @@
+#!/bin/bash
+# Egy egyszerű szövegkiíratás
+echo "Hello world!"

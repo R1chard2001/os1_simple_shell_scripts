@@ -1,0 +1,6 @@
+#!/bin/bash
+echo -n "'a' oldal hossza: "
+read A
+KER=`expr $A \* 4`
+TER=$(($A * $A))
+echo -e "Kerület: $KER\nTerület: $TER"

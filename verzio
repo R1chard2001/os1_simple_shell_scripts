@@ -1,0 +1,5 @@
+#!/bin/bash
+VER_FILE="/etc/debian_version"
+VER=$(cat $VER_FILE)
+#VER=`cat $VER_FILE`
+echo "Verzió: $VER"

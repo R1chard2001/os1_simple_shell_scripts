@@ -1,0 +1,5 @@
+#!/bin/bash
+echo -n "Login név: "
+read NAME
+FULLNAME=$(cat /etc/passwd | grep ^$NAME: | cut -d: -f5 | cut -d , -f 1)
+echo "A felhasználó teljes neve: $FULLNAME"

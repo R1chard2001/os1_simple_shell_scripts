@@ -1,0 +1,3 @@
+#!/bin/bash
+DATUM=$(date '+%a')
+echo "Mai nap: $DATUM"
